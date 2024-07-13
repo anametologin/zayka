@@ -1,0 +1,15 @@
+[package]
+name = "zayka"
+description = "Zay's Keys Absorber"
+version = "0.1.0"
+authors = ["Vjatcheslav V. Kolchkov <akl334@protonmail.ch>"]
+edition = "2021"
+build = "build.rs"
+
+[dependencies]
+slint = {version="1.6", features=["backend-winit-wayland"]}
+tokio = {version= "1", features= ["full"]}
+zbus = {version="^4.3.1"}
+
+[build-dependencies]
+slint-build = "1.6"

@@ -1,0 +1,19 @@
+import { Button, VerticalBox } from "std-widgets.slint";
+
+export component AppWindow inherits Window {
+    width: 1px;
+    height: 1px;
+    //max-width: 100px;
+    //max-height: 100px;
+    no-frame: true;
+    forward-focus: zay-key-handler;
+    callback key-press(string);
+    zay-key-handler := FocusScope {
+        key-pressed(event) => {
+            root.key-press(event.text);
+            accept
+        }
+    }
+
+    in-out property <int> counter: 42;
+}
