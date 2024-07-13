@@ -2,11 +2,11 @@
 
 The Key absorber for [Zay].
 
-[Zay]: (https://github.com/anametologin/zay)
+[Zay]: https://github.com/anametologin/zay
 
 ## About
 
-It's simple one pixel window application for getting user keyboard input and send it to Kwin script: [Zay]
+It's simple the one pixel window application for getting a user keyboard input and send it to Kwin script: [Zay]
 
 ## How it works
 
